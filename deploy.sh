@@ -1,0 +1,1 @@
+source ./scripts/deployment.sh
