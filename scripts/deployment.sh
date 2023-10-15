@@ -1,9 +1,3 @@
-if ! command -v jq &> /dev/null
-then
-    echo "jq is required but could not be found. "
-    return 1
-fi
-
 if ! command -v az &> /dev/null
 then
     echo "The AZ CLI is required but could not be found."
